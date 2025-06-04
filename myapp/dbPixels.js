@@ -5,11 +5,7 @@ const canvaSize = 200;
 
 // Database connection & creation
 var con = mysql.createConnection({
-  host: "yamanote.proxy.rlwy.net",
-  port: "30831",
-  database: "railway",
-  user: "root",
-  password: "yMdXBhOeslFOqRfhbbHUWUlijPQZtLlI"
+//XXXXX
 });
 
 con.connect(function(err) {
