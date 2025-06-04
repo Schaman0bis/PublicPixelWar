@@ -6,11 +6,7 @@ var mysql = require('mysql2');
 const {getCookie} = require('../public/javascripts/cookieUtils');
 
 var con = mysql.createPool({
-  host: "yamanote.proxy.rlwy.net",
-  port: "30831",
-  database: "railway",
-  user: "root",
-  password: "yMdXBhOeslFOqRfhbbHUWUlijPQZtLlI"
+//XXXXX
 });
 
 router.get('/', (req, res) => {
